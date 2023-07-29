@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * @author Simpson Alfred
  */
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin("http://localhost:3000") //allowing client application to consume the backed
 @RestController
 @RequestMapping("/students")
 @RequiredArgsConstructor
